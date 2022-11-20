@@ -1,5 +1,6 @@
 # folders
-.mixin.out
+.idea/
+.mixin.out/
 crash-reports/
 defaultconfigs/
 downloads/
