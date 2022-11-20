@@ -20,7 +20,7 @@ ServerEvents.recipes((e) => {
     "black",
   ].forEach((color) => {
     // crafting
-    RecipeManager.addGroup(
+    RecipeManager.add(
       e,
       "vanillaaugratin/minecraft:bed",
       `1x minecraft:${color}_bed`,
@@ -31,7 +31,7 @@ ServerEvents.recipes((e) => {
       }
     );
     // re-dye
-    RecipeManager.addGroup(
+    RecipeManager.add(
       e,
       "vanillaaugratin/minecraft:bed/redye",
       `1x minecraft:${color}_bed`,
@@ -41,7 +41,7 @@ ServerEvents.recipes((e) => {
 
   // CAKE
   RecipeManager.remove(e, ["minecraft:cake"]);
-  RecipeManager.addGroup(
+  RecipeManager.add(
     e,
     "vanillaaugratin/minecraft:cake",
     "1x minecraft:cake",
