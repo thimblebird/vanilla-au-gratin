@@ -405,10 +405,10 @@
 			B = 0.0
 
 [tweaks]
-	"Villagers Follow Emeralds" = true
+	"Villagers Follow Emeralds" = false
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
-	"Snow Golem Player Heads" = false
+	"Snow Golem Player Heads" = true
 	"Simple Harvest" = false
 	"Sign Editing" = true
 	"Shulker Packing" = false
