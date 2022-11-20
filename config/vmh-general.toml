@@ -1,0 +1,107 @@
+
+["VMH Entities"]
+	#
+	#Determines what entities have their size modified by this mod, as well as their min, max, and median sizes.
+	#
+	#If an entity doesn't work automatically, this list also works as a whitelist.
+	#
+	#The median only does things for certain distribution values.
+	#
+	#**MUST BE IN THE SAME SPOT AS THE NORMAL 'VMH Entities' ARRAY WHERE VALUES ARE SET.**
+	#
+	#**Values must be set as follow: 'minecraft/modId:name;vmhSizeMin;vmhSizeMax;vmhSizeMedian;vmhDistributionType'.**
+	#
+	vmhEntities = ["minecraft:allay;0.9;1.1;1;0", "minecraft:axolotl;0.9;1.1;1;0", "minecraft:bat;0.9;1.1;1;0", "minecraft:bee;0.9;1.1;1;0", "minecraft:blaze;0.9;1.1;1;0", "minecraft:cat;0.9;1.1;1;0", "minecraft:cave_spider;0.9;1.1;1;0", "minecraft:chicken;0.9;1.1;1;0", "minecraft:cod;0.9;1.1;1;0", "minecraft:cow;0.9;1.1;1;0", "minecraft:creeper;0.9;1.1;1;0", "minecraft:dolphin;0.9;1.1;1;0", "minecraft:donkey;0.9;1.1;1;0", "minecraft:drowned;0.9;1.1;1;0", "minecraft:enderman;0.9;1.1;1;0", "minecraft:evoker;0.9;1.1;1;0", "minecraft:fox;0.9;1.1;1;0", "minecraft:frog;0.9;1.1;1;0", "minecraft:ghast;0.9;1.1;1;0", "minecraft:glow_squid;0.9;1.1;1;0", "minecraft:goat;0.9;1.1;1;0", "minecraft:guardian;0.9;1.1;1;0", "minecraft:hoglin;0.9;1.1;1;0", "minecraft:horse;0.9;1.1;1;0", "minecraft:husk;0.9;1.1;1;0", "minecraft:illusioner;0.9;1.1;1;0", "minecraft:iron_golem;0.9;1.1;1;0", "minecraft:llama;0.9;1.1;1;0", "minecraft:magma_cube;0.9;1.1;1;0", "minecraft:mooshroom;0.9;1.1;1;0", "minecraft:mule;0.9;1.1;1;0", "minecraft:ocelot;0.9;1.1;1;0", "minecraft:panda;0.9;1.1;1;0", "minecraft:parrot;0.9;1.1;1;0", "minecraft:phantom;0.9;1.1;1;0", "minecraft:pig;0.9;1.1;1;0", "minecraft:piglin_brute;0.9;1.1;1;0", "minecraft:pillager;0.9;1.1;1;0", "minecraft:polar_bear;0.9;1.1;1;0", "minecraft:pufferfish;0.9;1.1;1;0", "minecraft:rabbit;0.9;1.1;1;0", "minecraft:ravager;0.9;1.1;1;0", "minecraft:salmon;0.9;1.1;1;0", "minecraft:sheep;0.9;1.1;1;0", "minecraft:shulker;0.9;1.1;1;0", "minecraft:silverfish;0.9;1.1;1;0", "minecraft:skeleton;0.9;1.1;1;0", "minecraft:slime;0.7;1.1;3;0", "minecraft:snow_golem;0.9;1.1;1;0", "minecraft:spider;0.8;1.2;1;0", "minecraft:squid;0.9;1.1;1;0", "minecraft:stray;0.9;1.1;1;0", "minecraft:strider;0.9;1.1;1;0", "minecraft:tadpole;0.9;1.1;1;0", "minecraft:trader_llama;0.9;1.1;1;0", "minecraft:tropical_fish;0.9;1.1;1;0", "minecraft:turtle;0.9;1.1;1;0", "minecraft:vex;0.9;1.1;1;0", "minecraft:villager;0.92;1.08;1;0", "minecraft:vindicator;0.9;1.1;1;0", "minecraft:wandering_trader;0.92;1.08;1;0", "minecraft:witch;0.9;1.1;1;0", "minecraft:wither_skeleton;0.9;1.1;1;0", "minecraft:wolf;0.9;1.1;1;0", "minecraft:zoglin;0.9;1.1;1;0", "minecraft:zombie;0.9;1.1;1;0", "minecraft:zombie_horse;0.9;1.1;1;0", "minecraft:zombie_villager;0.9;1.1;1;0", "minecraft:zombified_piglin;0.9;1.1;1;0"]
+
+["VMH Entities Blacklist"]
+	#
+	#Determines what entities are blacklist to be used by this mod.
+	#
+	vmhEntitiesBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden"]
+
+["VMH Entity Tags"]
+	#
+	#Determines what entity tags are to be used by this mod.
+	#
+	vmhEntityTags = ["vmh:default_size;0.9;1.1;1;0"]
+
+["Default Spawn Size/Distribution Values"]
+	#
+	#Determines the default min, max, and median size values a mob can be.
+	#
+	#The median value sets where the middle of the distribution is set.
+	#
+	#**Default values: Min=0.8, Max=1,2, Median=1, Distribution=0. Default values will only be used if an entity does not have them set in the config.**
+	#
+	#**More info on distributions can be found on the mod's page on curseforge.**
+	#
+	#*WARNING: Extreme values can cause issues and lag.*
+	#
+	#Range: 0.1 ~ 5.0
+	vmhSizeMax = 1.1
+	#Range: 0.1 ~ 5.0
+	vmhSizeMin = 0.9
+	#Range: 0.1 ~ 5.0
+	vmhSizeMedian = 1.0
+	#
+	#Determines the type of distribution to use on entities.
+	#
+	#Range: 0 ~ 4
+	vmhDistributionType = 0
+
+["Buff Health"]
+	#
+	#Determines whether or not to buff/debuff entity health by their size value.
+	#
+	vmhBuffHealth = true
+
+["Buff Speed"]
+	#
+	#Determines whether or not to buff/debuff entity movement/flying speed by their size value.
+	#
+	vmhBuffSpeed = false
+
+["Buff Attack Damage"]
+	#
+	#Determines whether or not to buff/debuff entity attack damage by their size value.
+	#
+	vmhBuffAttackDamage = true
+
+["Buff Attack Speed"]
+	#
+	#Determines whether or not to buff/debuff entity attack speed by their size value.
+	#
+	vmhBuffAttackSpeed = false
+
+["Buff Attack Knockback"]
+	#
+	#Determines whether or not to buff/debuff entity knockback by their size value.
+	#
+	vmhBuffKnockback = true
+
+["Buff Defense"]
+	#
+	#Determines whether Aor not to buff/debuff entity defense by their size value.
+	#
+	vmhBuffDefense = false
+
+["Modify Jump/Step Height"]
+	#
+	#Determines whether or not to modify entity jump height/step height by their size value.
+	#
+	#WARNING: Be careful turning this on, it can cause mobs to have serious issues. It depends on the heights.
+	#
+	vmhBuffJumpHeight = false
+
+["Buff Horse Jump Height"]
+	#
+	#Determines whether or not to modify horse jump heights.
+	#
+	vmhBuffHorseJumpHeight = true
+
+["Do Auto-Compatibility"]
+	#
+	#Enables/disables auto-compatibility with mobs/creatures.
+	#
+	vmhDoAutoCompat = true
+

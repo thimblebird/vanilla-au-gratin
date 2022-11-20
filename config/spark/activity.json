@@ -1,0 +1,106 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668902488501,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3tus3a4ZQc"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668902153195,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5w3hrs1NuV"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668901608491,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3xtIjnwJSz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668859942603,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/4IqXxzeIFJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668858527082,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UvcraLNyou"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668857868816,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/azVdbHHgpy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668857236910,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/4yqTWxRNf0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "fingerhutvogel",
+      "uniqueId": "25a518a1-0887-41ec-be5e-5f9021833f20"
+    },
+    "time": 1668856835200,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HBXfxCqTXo"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "kubejs.ponder.tag.create_accessibility": "Manual Item Application",
+  "kubejs.ponder.tag.create_accessibility.description": "Recipes you won\u0027t find in your recipe book",
+  "kubejs.ponder.stripped_wood_or_log_to_andesite_casing.header": "Crafting Andesite Casings",
+  "kubejs.ponder.stripped_wood_or_log_to_andesite_casing.text_1": "Right-click any Wood or Log Block with an Axe to strip it",
+  "kubejs.ponder.stripped_wood_or_log_to_andesite_casing.text_2": "Right-click any Stripped Wood or Log Block with Andesite Alloy to craft an Andesite Casing",
+  "kubejs.ponder.stripped_wood_or_log_to_brass_casing.header": "Crafting Brass Casings",
+  "kubejs.ponder.stripped_wood_or_log_to_brass_casing.text_1": "Right-click any Wood or Log Block with an Axe to strip it",
+  "kubejs.ponder.stripped_wood_or_log_to_brass_casing.text_2": "Right-click the Stripped Wood or Log Block with a Brass Ingot to craft a Brass Casing",
+  "kubejs.ponder.stripped_wood_or_log_to_copper_casing.header": "Crafting Copper Casings",
+  "kubejs.ponder.stripped_wood_or_log_to_copper_casing.text_1": "Right-click any Wood or Log Block with an Axe to strip it",
+  "kubejs.ponder.stripped_wood_or_log_to_copper_casing.text_2": "Right-click the Stripped Wood or Log Block with a Copper Ingot to craft a Copper Casing",
+  "kubejs.ponder.stripped_wood_or_log_to_train_casing.header": "Crafting Train Casings",
+  "kubejs.ponder.stripped_wood_or_log_to_train_casing.text_1": "Right-click a Brass Casing with Sturdy Sheet to craft a Train Casing"
+}

@@ -1,0 +1,15 @@
+
+[smoothswapping]
+
+	[smoothswapping.config]
+
+		[smoothswapping.config.option]
+			#smoothswapping.config.option.animationspeed.desc
+			#Range: 1 ~ 400
+			animationspeed = 100
+			#smoothswapping.config.option.ease.desc
+			ease = "linear"
+			#smoothswapping.config.option.easespeed.desc
+			#Range: 100 ~ 1000
+			easespeed = 400
+

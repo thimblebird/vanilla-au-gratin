@@ -1,0 +1,7 @@
+
+["Mob's Strength and Weakness"]
+	#How much stronger can mobs be? (%)
+	stength = 30
+	#How much weaker can mobs be? (%)
+	weakness = 30
+
