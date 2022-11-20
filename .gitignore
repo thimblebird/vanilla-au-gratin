@@ -1,0 +1,32 @@
+# folders
+.mixin.out
+crash-reports/
+defaultconfigs/
+downloads/
+global_packs/
+globalresources/
+local/
+localconfigs/
+logs/
+mods/
+schematics/
+saves/
+screenshots/
+shaderpacks/
+
+# files
+/.curseclient
+/hs_*.log
+/knownkeys.txt
+/minecraftinstance.json
+/o_prof
+/options.txt
+/realms_persistence.json
+/rhino.local.properties
+/usercache.json
+/usernamecache.json
+
+# kubejs
+kubejs/exported/
+kubejs/data/
+kubejs/README.txt
